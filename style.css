@@ -76,15 +76,13 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 margin-bottom: 5px;
 }
 
-section h2:first-child::before{
+section article:first-child::before, section article:nth-child(2)::before{
     content: "New! ";
     color: #f09595;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
     }
-
-/* article h2:nth-child(2)::before{
-content: "New! ";
-color: #f09595;
-} */
 
 article p {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
